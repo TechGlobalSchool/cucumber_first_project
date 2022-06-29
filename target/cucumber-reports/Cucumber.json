@@ -1,0 +1,454 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4893720463,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 70163228,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CarvanaSteps.setupPages()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate CAR FINDER menu item",
+        "description": "",
+        "id": "carvana-main-header-functionality;validate-car-finder-menu-item",
+        "after": [
+          {
+            "result": {
+              "duration": 4292465942,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2856202503,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on \"https://www.carvana.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.carvana.com/\"",
+                  "offset": 11
+                }
+              ],
+              "location": "CarvanaSteps.userIsOn(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8685750338,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on \"CAR FINDER\" menu item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CAR FINDER\"",
+                  "offset": 15
+                }
+              ],
+              "location": "CarvanaSteps.userClicksOnMenuItem(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54264818,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be navigated to \"https://www.carvana.com/help-me-search/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.carvana.com/help-me-search/\"",
+                  "offset": 28
+                }
+              ],
+              "location": "CarvanaSteps.userShouldBeNavigatedTo(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 49657829,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should see \"WHAT CAR SHOULD I GET?\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WHAT CAR SHOULD I GET?\"",
+                  "offset": 16
+                }
+              ],
+              "location": "CarvanaSteps.userShouldSeeText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86046745,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should see \"Car Finder can help! Answer a few quick questions to find the right car for you.\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Car Finder can help! Answer a few quick questions to find the right car for you.\"",
+                  "offset": 16
+                }
+              ],
+              "location": "CarvanaSteps.userShouldSeeText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135596438,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should see \"TRY CAR FINDER\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TRY CAR FINDER\"",
+                  "offset": 16
+                }
+              ],
+              "location": "CarvanaSteps.userShouldSeeLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 210775012,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on \"TRY CAR FINDER\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TRY CAR FINDER\"",
+                  "offset": 15
+                }
+              ],
+              "location": "CarvanaSteps.userClicksOnLink(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4676772,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should be navigated to \"https://www.carvana.com/help-me-search/qa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.carvana.com/help-me-search/qa\"",
+                  "offset": 28
+                }
+              ],
+              "location": "CarvanaSteps.userShouldBeNavigatedTo(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36509735,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should see \"WHAT IS MOST IMPORTANT TO YOU IN YOUR NEXT CAR?\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WHAT IS MOST IMPORTANT TO YOU IN YOUR NEXT CAR?\"",
+                  "offset": 16
+                }
+              ],
+              "location": "CarvanaSteps.userShouldSeeText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40000826,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should see \"Select up to 4 in order of importance\" text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Select up to 4 in order of importance\"",
+                  "offset": 16
+                }
+              ],
+              "location": "CarvanaSteps.userShouldSeeText(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2950380364,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 610067,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CarvanaSteps.setupPages()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Validate AUTO LOAN CALCULATOR under FINANCING menu item",
+        "description": "",
+        "id": "carvana-main-header-functionality;validate-auto-loan-calculator-under-financing-menu-item",
+        "after": [
+          {
+            "result": {
+              "duration": 3754195313,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5992534607,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is on \"https://www.carvana.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.carvana.com/\"",
+                  "offset": 11
+                }
+              ],
+              "location": "CarvanaSteps.userIsOn(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 432253066,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user hovers over on \"FINANCING\" menu item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FINANCING\"",
+                  "offset": 20
+                }
+              ],
+              "location": "CarvanaSteps.userHoversOverOnMenuItem(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4945104691,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on \"AUTO LOAN CALCULATOR\" finance menu item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AUTO LOAN CALCULATOR\"",
+                  "offset": 15
+                }
+              ],
+              "location": "CarvanaSteps.userClicksOnHeaderMenuItem(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1123999926,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters \"Cost of Car I want\" as \"10,000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cost of Car I want\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"10,000\"",
+                  "offset": 36
+                }
+              ],
+              "location": "CarvanaSteps.userEntersAs(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 213447986,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user selects \"What’s Your credit Score?\" as \"Excellent: 780\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"What’s Your credit Score?\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Excellent: 780\"",
+                  "offset": 44
+                }
+              ],
+              "location": "CarvanaSteps.userSelectsAs(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 333447134,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user selects \"Choose Your Loan Terms\" as \"60 Months\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Choose Your Loan Terms\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"60 Months\"",
+                  "offset": 41
+                }
+              ],
+              "location": "CarvanaSteps.userSelectsAs(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 370364571,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user enters \"What is Your Down Payment?\" as \"1,500\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"What is Your Down Payment?\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"1,500\"",
+                  "offset": 44
+                }
+              ],
+              "location": "CarvanaSteps.userEntersAs(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73721376,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user should see the monthly payment as \"154.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"154.00\"",
+                  "offset": 39
+                }
+              ],
+              "location": "CarvanaSteps.userShouldSeeTheMonthlyPaymentAs(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Carvana Main Header Functionality",
+    "description": "",
+    "id": "carvana-main-header-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/carvana.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
